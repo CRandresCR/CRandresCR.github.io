@@ -5,7 +5,7 @@
     $usuario = $_POST['usuario'];
 	$contrasena = $_POST['contrasena'];
 
-    $consultar=$connect->query("SELECT * FROM usuarios WHERE Nombre='".$usuario."' and Contraseña='".$contrasena."'");
+    $consultar=$connect->query("SELECT * FROM usuarios WHERE Nombre='".$usuario."' and Contrasena='".$contrasena."'");
 
     $resultado=array();
 
