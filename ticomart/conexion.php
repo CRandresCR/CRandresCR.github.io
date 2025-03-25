@@ -1,6 +1,6 @@
 <?php
 
-$connect = new mysqli("localhost","root","","pruebaticomart");
+$connect = new mysqli("201.191.189.233","root","","pruebaticomart");
 
 if($connect){
 	 
