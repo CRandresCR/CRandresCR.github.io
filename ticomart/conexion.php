@@ -1,6 +1,6 @@
 <?php
 
-$connect = new mysqli("201.191.189.233","root","","pruebaticomart");
+$connect = new mysqli("mysql://root:lZQUVHhUatZhUJDiPMqIQcdFTeyMriKB@mysql.railway.internal:3306/railway","mysql.railway.internal","lZQUVHhUatZhUJDiPMqIQcdFTeyMriKB","railway");
 
 if($connect){
 	 
